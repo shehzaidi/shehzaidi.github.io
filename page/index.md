@@ -1,8 +1,7 @@
-## Schedule
+## Meetup schedule
 
-### _Please note that this schedule is subject to change._
+###### _Please note that this schedule is subject to change._
 
-__
 
 | Time          | Event                     | Details   |
 |---------------|---------------------------|-----------|
