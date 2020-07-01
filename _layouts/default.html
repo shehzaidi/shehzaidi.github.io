@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171401399-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-171401399-1');
+  </script>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="{{ site.description }}">
@@ -12,8 +21,8 @@
 <body>
   <div class="container">
     <div style="margin: auto; width: 40%; float: right">
-  <img src="./images/pp_bw.jpg" style="display:block; margin-left:auto; margin-right:auto; border-radius:50%; width:75%;">
-</div>
+  		<img src="./images/pp_bw.jpg" style="display:block; margin-left:auto; margin-right:auto; border-radius:50%; width:75%;">
+	</div>
     <h1><a href="./">{{ site.tag_text }}</a></h1>
     {{ content }}
   </div>
